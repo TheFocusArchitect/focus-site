@@ -1,23 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Focus Architect | Systems for Elite Performance</title>
     <style>
-        body { font-family: 'Inter', -apple-system, sans-serif; 
-background-color: #000; color: #fff; display: flex; justify-content: center; 
-align-items: center; height: 100vh; margin: 0; }
+        body { font-family: 'Helvetica Neue', sans-serif; background-color: #000; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
         .container { text-align: center; max-width: 600px; padding: 20px; }
-        h1 { font-size: 2.5rem; letter-spacing: -1px; margin-bottom: 10px; }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; font-weight: bold; }
         p { color: #888; font-size: 1.1rem; line-height: 1.6; }
-        .cta-box { margin-top: 40px; padding: 30px; border: 1px solid #333; 
-border-radius: 8px; }
-        input[type="email"] { width: 80%; padding: 12px; margin-bottom: 20px; 
-background: #111; border: 1px solid #444; color: #fff; border-radius: 4px; }
-        button { background: #fff; color: #000; border: none; padding: 12px 
-30px; font-weight: bold; cursor: pointer; border-radius: 4px; transition: 0.3s; 
-}
+        .cta-box { margin-top: 40px; padding: 30px; border: 1px solid #333; border-radius: 8px; }
+        input[type="email"] { width: 80%; padding: 12px; margin-bottom: 20px; background: #111; border: 1px solid #444; color: #fff; border-radius: 4px; text-align: center; }
+        button { background: #fff; color: #000; border: none; padding: 12px 30px; font-weight: bold; cursor: pointer; border-radius: 4px; transition: 0.3s; width: 80%; }
         button:hover { background: #ccc; }
         .footer { margin-top: 50px; font-size: 0.8rem; color: #444; }
     </style>
@@ -25,15 +19,14 @@ background: #111; border: 1px solid #444; color: #fff; border-radius: 4px; }
 <body>
     <div class="container">
         <h1>Architect Your Focus.</h1>
-        <p>Most entrepreneurs fail because they fight their environment. I build 
-systems that make deep work inevitable.</p>
+        <p>Most entrepreneurs fail because they fight their environment. I build systems that make deep work inevitable.</p>
         
         <div class="cta-box">
             <h3>Join the 0.1% Focus List</h3>
-            <p>Get my "Set It and Forget It" architecture guide + a <b>$25 
-credit</b> for my favorite email automation tool.</p>
-            <form action="#"> <input type="email" placeholder="Enter your 
-business email" required>
+            <p>Get my "Set It and Forget It" architecture guide + a <b>$25 credit</b> for my favorite email automation tool.</p>
+            
+            <form action="https://formspree.io/f/TON_ID_ICI" method="POST">
+                <input type="email" name="email" placeholder="Enter your business email" required>
                 <br>
                 <button type="submit">GET THE ARCHITECTURE</button>
             </form>
